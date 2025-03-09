@@ -1,22 +1,15 @@
-$red : #dc143c;
+//foundation
+@use 'foundation/normalize';
+@use 'foundation/mixin';
+@use 'foundation/variable';
+@use 'foundation/base';
 
-.content {
-  div {
-    width: 100%;
-    h1 {
-      font-size: 36px;
-      font-weight: bold;
-      color: $red;
-    }
-    p {
-      font-size: 40px;
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: row;
-    }
-  }
-  &-img-area {
-    width: 100%;
-    background: rgba($red, 0.2);
-  }
-}
+//layout
+@use 'layout/l-header';
+@use 'layout/l-footer';
+
+
+//object
+
+
+@use 'object/utility/u-utility';
