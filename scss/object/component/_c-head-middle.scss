@@ -1,0 +1,26 @@
+@use '../../foundation/mixin' as *;
+@use '../../foundation/variable' as *;
+
+
+
+.c-head-middle {
+ width: 100%;
+ text-align: center;
+ font-size: 3rem;
+ line-height: calc(50 / 30);
+ @include sp {
+   font-size: 2.5rem;
+   line-height: calc(40 / 25);
+ }
+}
+
+
+.c-head-middle--white {
+ color: #fff;
+}
+
+.c-head-middle--blk {
+ color: #000;
+}
+
+

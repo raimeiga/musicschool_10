@@ -1,0 +1,43 @@
+@use '../../foundation/mixin' as *;
+@use '../../foundation/variable' as *;
+
+
+.p-fv__inner {
+ width: 100%;
+ position: relative;
+}
+
+.p-fv__image {
+ width: 100%;
+ position: relative;
+}
+
+.p-fv__image::after {
+ content: '';
+ background-color: rgba(80, 80, 80, 0.502);
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ top: 0;
+}
+
+.p-fv__text {
+ background-color: red;
+ width: 100%;
+ text-align: center;
+ position: absolute;
+ top: 52%;
+ left: 50%;
+ transform: translate(-50%,-49%);
+}
+
+.p-fv__text h2 {
+ color: #fff;
+ font-size: 4rem;
+ line-height: calc(60 / 40);
+ @include sp {
+  font-size: 3rem;
+  line-height: calc(50 / 30);
+ }
+}
+

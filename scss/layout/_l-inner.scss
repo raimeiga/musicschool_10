@@ -1,0 +1,14 @@
+@use '../foundation/mixin' as *;
+@use '../foundation/variable' as *;
+
+
+.i-inner {
+ max-width: 94rem;
+ width: 100%;
+ padding-inline: 3rem;
+ margin-inline: auto; 
+ @include sp {
+  padding-inline: 2rem;
+}
+}
+

@@ -1,0 +1,19 @@
+@use '../../foundation/mixin' as *;
+@use '../../foundation/variable' as *;
+
+
+
+.p-top-message__text {
+ width: 100%;
+ color: #fff;
+ text-align: center;
+ font-size: 1.8rem;
+ line-height: calc(30 / 18);
+ font-weight: 500;
+ margin-top: 3rem;
+ @include sp {
+  margin-top: 1.4rem;
+ }
+}
+
+

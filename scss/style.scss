@@ -7,9 +7,23 @@
 //layout
 @use 'layout/l-header';
 @use 'layout/l-footer';
+@use 'layout/l-red-inner';
+@use 'layout/l-inner';
 
 
 //object
+@use 'object/component/c-btn';
+@use 'object/component/c-ham';
+@use 'object/component/c-head-middle';
+
+@use 'object/project/p-fv';
+@use 'object/project/p-top';
+@use 'object/project/p-top-concept';
+@use 'object/project/p-top-message';
+
+@use 'object/project/p-top-concept-diagram-row';
+
+
 
 
 @use 'object/utility/u-utility';
